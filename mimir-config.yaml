@@ -1,0 +1,22 @@
+# Example Mimir configuration
+server:
+  http_listen_port: 9009
+
+ingester:
+  lifecycler:
+    ring:
+      kvstore:
+        store: inmemory
+      replication_factor: 1
+
+distributor:
+  shard_by_all_labels: true
+
+store:
+  backend: boltdb-shipper
+  boltdb_shipper:
+    active_index_directory: /data/mimir/index
+    shared_store: filesystem
+    cache_location: /data/mimir/cache
+    cache_ttl: 24h
+    resync_interval: 5m

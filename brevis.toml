@@ -1,0 +1,25 @@
+# brevis gateway, will post sig to here
+bgw = "https://testnet-api.brevis.network/"
+
+# BLS key for eigenlayer
+blspath = "/home/gautam/.eigenlayer/operator_keys/gautam.bls.key.json"
+blspwd = ""
+# ecdsa for onchain tx, needed in join. after that not needed during normal operation
+kspath = "/home/gautam/.eigenlayer/operator_keys/gautammetamask.ecdsa.key.json"
+kspwd = ""
+
+# EigenLayer operator ID
+operID = "dc3ce85b528391f5f7a445fd73acba695ea912d490dc05d7b1c5cec115d97219"
+
+# per chain config
+[[multichain]]
+chainID = 17000
+name = "eth holesky"
+# Private gateway endpoint recommended
+gateway = "https://eth-holesky.blastapi.io/cca577d0-b679-4580-bf3c-0b29736ec125"
+BlkInterval = 12
+BlkDelay = 2
+Brevis = "0xe0A61C0CAa3D8DE34bE6D31Bc4429ff1D51893A8"
+BrvEigen = "0x7A46219950d8a9bf2186549552DA35Bf6fb85b1F"
+BrvRegCo = "0x0dB4ceE042705d47Ef6C0818E82776359c3A80Ca"
+AVSDir = "0x055733000064333CaDDbC92763c58BF0192fFeBf"
