@@ -59,9 +59,3 @@
   ```sh
   curl -i http://localhost:8081/eigen/node/health
   ```
-
-  ![Health Check Screenshot](image.png)
-
-## Video URL
-
-[URL](https://youtu.be/c-PgGu6JXVI)
