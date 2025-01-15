@@ -1,4 +1,4 @@
-# Task 5- EigenLayer Brevis Co-chain AVS Setup
+# EigenLayer Brevis Co-chain AVS Setup
 
 ## Install Eigenlayer CLI
 
