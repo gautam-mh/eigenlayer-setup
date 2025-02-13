@@ -1,4 +1,4 @@
-# EigenLayer Brevis Co-chain AVS Setup
+# EigenLayer Operator Deployment and Real-Time Monitoring System
 
 ## Install Eigenlayer CLI
 
